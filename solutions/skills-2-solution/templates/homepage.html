@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block body %}
+  <h1>Ubermelon's Most Loved Melons</h1>
+
+  <img class="centered" src="http://placemelon.com/300/300" />
+
+  <form action="/get-name">
+    <div>
+      <label for="namefield">What's your name?</label>
+      <input id="namefield" type="text" name="name" required />
+    </div>
+    <div>
+      <input type="submit" />
+    </div>
+  </form>
+{% endblock %}
+

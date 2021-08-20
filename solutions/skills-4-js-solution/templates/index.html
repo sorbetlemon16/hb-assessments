@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skills 4 – JavaScript</title>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      h1 {
+        text-align: center;
+      }
+      img {
+        width: 100%;
+      }
+      section {
+        width: 800px;
+        margin: 2em auto;
+        padding: 10px;
+        border: 1px solid #ddd;
+      }
+      section:first-child {
+        margin-top: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Skills 4</h1>
+
+    <!-- -->
+
+    <section id="prompt-1">
+      <button id="login-button">Log In</button>
+    </section>
+
+    <!-- -->
+
+    <section id="prompt-2">
+      <form>
+        <p>Send an alert!</p>
+        <p>
+          <label for="fave-color">What do you want the alert to say?</label>
+        </p>
+        <p>
+          <input type="text" name="fave-color" id="alert-text" />
+        </p>
+        <p>
+          <button type="submit">Send Alert!</button>
+        </p>
+      </form>
+    </section>
+
+    <!-- -->
+
+    <section id="prompt-3">
+      <button id="list-adder">Double-click to add an item</button>
+      <ul id="list">
+        <li>Item</li>
+      </ul>
+    </section>
+
+    <!-- -->
+
+    <section id="prompt-4">
+      <button id="red-changer">Turn Stuff Red</button>
+      <button id="blue-change">Turn Stuff Blue</button>
+
+      <p class="changes-colors">This should change colors.</p>
+      <p>
+        But this shouldn't change colors, except for
+        <span class="changes-colors">this phrase right here</span>
+      </p>
+    </section>
+
+    <!-- -->
+
+    <section id="prompt-5">
+      <h3>Some Names of Berries from Pokemon</h3>
+      <p id="berries"></p>
+    </section>
+
+    <!-- Assessment file -->
+    <script src="/static/assessment.js"></script>
+  </body>
+</html>
